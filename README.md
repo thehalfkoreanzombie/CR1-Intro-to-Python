@@ -9,7 +9,7 @@ For this project, I had to create three different functions with docstrings for 
 In order to set this up, you will need to make a directory for your file and then switch over to that directory. Then, create a virtual environment for python 3 to work in. Change into your virtual environment using source venv/bin/activate. For this project, I used a jupyter lab file (.ipynb), so you will need to install jupyterlab into your virtual environment using the requirements.txt file. Use pip install -r requirements.txt. After doing this, you should be able to read and use the .ipynb file properly 
 
 ## Known Bugs
-There are no bugs known with running this code. 
+The only potential bug here has to do with the function fourth_place. Since this function would give me an Indexerror if there were less than four items in the list, I used the try/except method. This way, if there were less than four items in the list, it would give the user a string telling them this rather than an error.
 
 As an aside, I did learn a couple of things while writing this code review. First, and most important, I learned not to use undo (ctrl + z) in a jupyter notebook. While writing my dict_sayer function, I used it and it deleted the whole code cell! This was very unfortunate, and made me restart that whole code cell. 
 
